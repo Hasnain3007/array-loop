@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assligment 7</title>
+</head>
+
+<body>
+    <script>
+
+        var items = ['cake', "apple pie", 'cookie', 'chips', 'patties']
+        var search = prompt('Welcome What You Want To Order')
+        var flag = false
+        for (var i = 0; i < items.length; i++) {
+            if (search == items[i]) {
+                document.write(search + ' is <b>avalible</b> at index ' + i + ' in over Bakery')
+                flag = true
+            }
+        }
+        if (flag == true) {
+
+        } else {
+
+            document.write('We Are Sorry .' + search + ' is <b>not avalible</b> in our bakery')
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>
